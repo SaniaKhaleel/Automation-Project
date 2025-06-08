@@ -55,76 +55,76 @@
 
 **Task 3** – Filtered Product Click (3PM to 6PM Only)
 
- Runs only between 3:00 PM and 6:00 PM.
+       Runs only between 3:00 PM and 6:00 PM.
  
- Searches for Hair Oil.
+       Searches for Hair Oil.
  
- Skips products starting with A, B, C, or D.
+       Skips products starting with A, B, C, or D.
  
- Clicks and prints key product info like title, price, rating, reviews, availability.
+       Clicks and prints key product info like title, price, rating, reviews, availability.
  
- Focus: Time-based test run + product filtering logic.
+       Focus: Time-based test run + product filtering logic.
 
 
 **Training Project** – Add to Cart + Checkout Flow
 
- Searches for Women Watch.
+         Searches for Women Watch.
  
- Selects first product, adds it to the cart, and continues checkout.
+         Selects first product, adds it to the cart, and continues checkout.
  
- Performs login using credentials from config.properties.
+         Performs login using credentials from config.properties.
  
- Takes a screenshot after checkout.
+         Takes a screenshot after checkout.
  
- Includes retry logic for flaky tests.
+         Includes retry logic for flaky tests.
  
- Focus: Realistic POM implementation with full flow + screenshot + retries.
+         Focus: Realistic POM implementation with full flow + screenshot + retries.
  
 
 
   **Sample Screenshot**
 
-Stored in the /screenshots/ folder with name AfterCheckout.png.
+         Stored in the /screenshots/ folder with name AfterCheckout.png.
 
 
 
  **Learning Highlights**
 
- Efficient use of waits (WebDriverWait).
+        Efficient use of waits (WebDriverWait).
  
- Handling dynamic product filters.
+        Handling dynamic product filters.
  
- Browser history navigation.
+        Browser history navigation.
  
- Jakarta Mail integration.
+        Jakarta Mail integration.
  
- TestNG annotations and retry mechanism.
+        TestNG annotations and retry mechanism.
  
- Real-time test control based on system time.
+        Real-time test control based on system time.
  
 
 
 **Credentials Handling (Secure Practice)**
 
-Passwords should be handled securely:
+        Passwords should be handled securely:
 
-Use environment variables (System.getenv("EMAIL_PASSWORD")).
+        Use environment variables (System.getenv("EMAIL_PASSWORD")).
 
-Avoid hardcoding sensitive data (only used here for training purposes).
+        Avoid hardcoding sensitive data (only used here for training purposes).
 
 
 
 **How to Run**
 
-Clone this repo.
+        Clone this repo.
 
-Update config.properties with your email, password.
+        Update config.properties with your email, password.
 
 
 **Author**
-Sania Khaleel.
+         Sania Khaleel.
 
-🔗 LinkedIn (https://www.linkedin.com/in/sania-khaleel).
+      🔗 LinkedIn (https://www.linkedin.com/in/sania-khaleel).
 
 
 
