@@ -53,8 +53,7 @@ sania.tests
  Focus: Price tracking logic + Email automation.
 
 
-
- **Task 3 **– Filtered Product Click (3PM to 6PM Only)
+**Task 3** – Filtered Product Click (3PM to 6PM Only)
 
  Runs only between 3:00 PM and 6:00 PM.
  
@@ -67,8 +66,7 @@ sania.tests
  Focus: Time-based test run + product filtering logic.
 
 
-
-** Training Project** – Add to Cart + Checkout Flow
+**Training Project** – Add to Cart + Checkout Flow
 
  Searches for Women Watch.
  
