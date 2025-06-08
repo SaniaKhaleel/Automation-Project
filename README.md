@@ -78,8 +78,7 @@ Update config.properties with your email, password
 
 📌 Author
 Sania Khaleel
-BCA Graduate | Passionate about Automation Testing & Web Technologies
-🔗 LinkedIn (optional link)
+🔗 LinkedIn (https://www.linkedin.com/in/sania-khaleel).
 
 
 
