@@ -1,26 +1,30 @@
-🛒Amazon Automation Project 
+🛒Amazon Automation Project:
+
 This project showcases automation of various user flows on the Amazon website using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern.
 
-🔧 Technologies Used
- Java
- Selenium WebDriver
- TestNG
- Maven
- Jakarta Mail API (for email notifications)
+🔧 Technologies Used:
 
-📁 Project Structure
+ Java,
+ Selenium WebDriver,
+ TestNG,
+ Maven,
+ Jakarta Mail API (for email notifications).
+
+📁 Project Structure:
 
 sania.tests
-│
-├── tasks
-│ ├── Task1.java // get() vs navigate().to() + back/forward()
-│ ├── Task2.java // Amazon price tracker + email alert
-│ └── Task3.java // Real-time filter automation with time check
-│
-└── trainingProject
-└── AmazonTest.java // Full flow: Search, add to cart, login, and capture screenshot.
 
-✅ Tasks Overview
+ Task1.java // get() vs navigate().to() + back/forward()
+ 
+ Task2.java // Amazon price tracker + email alert
+ 
+ Task3.java // Real-time filter automation with time 
+ 
+ trainingProject:
+ 
+ AmazonTest.java // Full flow: Search, add to cart, login, and capture screenshot.
+
+✅ Tasks Overview:
 
 Task 1 – Demonstrates the difference between driver.get() and driver.navigate().to().
 
