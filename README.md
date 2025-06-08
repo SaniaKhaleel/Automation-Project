@@ -54,7 +54,7 @@ sania.tests
 
 
 
- Task 3 – Filtered Product Click (3PM to 6PM Only)
+ **Task 3 **– Filtered Product Click (3PM to 6PM Only)
 
  Runs only between 3:00 PM and 6:00 PM.
  
@@ -68,7 +68,7 @@ sania.tests
 
 
 
- Training Project – Add to Cart + Checkout Flow
+** Training Project** – Add to Cart + Checkout Flow
 
  Searches for Women Watch.
  
@@ -84,13 +84,13 @@ sania.tests
  
 
 
- 📸 Sample Screenshot
+  **Sample Screenshot**
 
 Stored in the /screenshots/ folder with name AfterCheckout.png.
 
 
 
- Learning Highlights
+ **Learning Highlights**
 
  Efficient use of waits (WebDriverWait).
  
@@ -106,7 +106,7 @@ Stored in the /screenshots/ folder with name AfterCheckout.png.
  
 
 
-Credentials Handling (Secure Practice)
+**Credentials Handling (Secure Practice)**
 
 Passwords should be handled securely:
 
@@ -116,14 +116,14 @@ Avoid hardcoding sensitive data (only used here for training purposes).
 
 
 
-How to Run
+**How to Run**
 
 Clone this repo.
 
 Update config.properties with your email, password.
 
 
-Author
+**Author**
 Sania Khaleel.
 
 🔗 LinkedIn (https://www.linkedin.com/in/sania-khaleel).
