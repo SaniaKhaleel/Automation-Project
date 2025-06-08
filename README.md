@@ -31,7 +31,7 @@ sania.tests
 
 **Tasks Overview:**
 
-Task 1 – Demonstrates the difference between driver.get() and driver.navigate().to().
+**Task 1** – Demonstrates the difference between driver.get() and driver.navigate().to().
 
   Uses navigate().back() and navigate().forward() to simulate browser history.
   
@@ -42,7 +42,7 @@ Task 1 – Demonstrates the difference between driver.get() and driver.navigate(
 
 
 
-💰 Task 2 – Price Tracker with Email Notification
+**Task 2** – Price Tracker with Email Notification
 
  Searches for iPhone 15.
  
@@ -54,7 +54,7 @@ Task 1 – Demonstrates the difference between driver.get() and driver.navigate(
 
 
 
- ⏰ Task 3 – Filtered Product Click (3PM to 6PM Only)
+ Task 3 – Filtered Product Click (3PM to 6PM Only)
 
  Runs only between 3:00 PM and 6:00 PM.
  
