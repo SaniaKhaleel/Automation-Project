@@ -106,6 +106,7 @@ Avoid hardcoding sensitive data (only used here for training purposes).
 
 
 🚀 How to Run
+
 Clone this repo.
 
 Update config.properties with your email, password.
