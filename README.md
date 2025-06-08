@@ -1,31 +1,31 @@
 **Amazon Automation Project:**
 
-This project showcases automation of various user flows on the Amazon website using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern.
+         This project showcases automation of various user flows on the Amazon website using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern.
 
 
 
 **Technologies Used:**
 
- Java,
- Selenium WebDriver,
- TestNG,
- Maven,
- Jakarta Mail API (for email notifications).
+         Java,
+         Selenium WebDriver,
+         TestNG,
+         Maven,
+         Jakarta Mail API (for email notifications).
 
 
 **Project Structure:**
 
-sania.tests
+         sania.tests
 
- Task1.java // get() vs navigate().to() + back/forward()
+                Task1.java // get() vs navigate().to() + back/forward()
  
- Task2.java // Amazon price tracker + email alert
+                Task2.java // Amazon price tracker + email alert
  
- Task3.java // Real-time filter automation with time 
+                Task3.java // Real-time filter automation with time 
  
- trainingProject:
+         trainingProject:
  
- AmazonTest.java // Full flow: Search, add to cart, login, and capture screenshot.
+                AmazonTest.java // Full flow: Search, add to cart, login, and capture screenshot.
 
 
 
@@ -33,24 +33,24 @@ sania.tests
 
 **Task 1** – Demonstrates the difference between driver.get() and driver.navigate().to().
 
-  Uses navigate().back() and navigate().forward() to simulate browser history.
+         Uses navigate().back() and navigate().forward() to simulate browser history.
   
-  Asserts page titles of Google and Amazon.
+         Asserts page titles of Google and Amazon.
   
-  Focus: Browser control and navigation.
+         Focus: Browser control and navigation.
 
 
 
 
 **Task 2** – Price Tracker with Email Notification
 
- Searches for iPhone 15.
+        Searches for iPhone 15.
  
- Checks the price and compares with a set threshold (₹60,000).
+        Checks the price and compares with a set threshold (₹60,000).
  
- If price is below the threshold, sends an email alert using JavaMail API.
+        If price is below the threshold, sends an email alert using JavaMail API.
  
- Focus: Price tracking logic + Email automation.
+        Focus: Price tracking logic + Email automation.
 
 
 **Task 3** – Filtered Product Click (3PM to 6PM Only)
