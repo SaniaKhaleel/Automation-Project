@@ -3,6 +3,7 @@
 This project showcases automation of various user flows on the Amazon website using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern.
 
 
+
 🔧 Technologies Used:
 
  Java,
