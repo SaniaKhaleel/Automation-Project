@@ -1,10 +1,10 @@
-🛒Amazon Automation Project:
+Amazon Automation Project:
 
 This project showcases automation of various user flows on the Amazon website using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern.
 
 
 
-🔧 Technologies Used:
+Technologies Used:
 
  Java,
  Selenium WebDriver,
@@ -13,7 +13,7 @@ This project showcases automation of various user flows on the Amazon website us
  Jakarta Mail API (for email notifications).
 
 
-📁 Project Structure:
+Project Structure:
 
 sania.tests
 
@@ -29,7 +29,7 @@ sania.tests
 
 
 
-✅ Tasks Overview:
+Tasks Overview:
 
 Task 1 – Demonstrates the difference between driver.get() and driver.navigate().to().
 
@@ -68,7 +68,7 @@ Task 1 – Demonstrates the difference between driver.get() and driver.navigate(
 
 
 
- 🛍️ Training Project – Add to Cart + Checkout Flow
+ Training Project – Add to Cart + Checkout Flow
 
  Searches for Women Watch.
  
@@ -90,7 +90,7 @@ Stored in the /screenshots/ folder with name AfterCheckout.png.
 
 
 
-🧠 Learning Highlights
+ Learning Highlights
 
  Efficient use of waits (WebDriverWait).
  
@@ -106,7 +106,7 @@ Stored in the /screenshots/ folder with name AfterCheckout.png.
  
 
 
-✅ Credentials Handling (Secure Practice)
+Credentials Handling (Secure Practice)
 
 Passwords should be handled securely:
 
@@ -116,15 +116,14 @@ Avoid hardcoding sensitive data (only used here for training purposes).
 
 
 
-🚀 How to Run
+How to Run
 
 Clone this repo.
 
 Update config.properties with your email, password.
 
 
-
-📌 Author
+Author
 Sania Khaleel.
 
 🔗 LinkedIn (https://www.linkedin.com/in/sania-khaleel).
