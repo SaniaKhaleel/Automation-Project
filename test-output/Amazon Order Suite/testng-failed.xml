@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Order Suite]">
+  <test thread-count="5" name="Amazon Order Flow Test(failed)">
+    <classes>
+      <class name="sania.tests.trainingProject.AmazonTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testOrder"/>
+        </methods>
+      </class> <!-- sania.tests.trainingProject.AmazonTest -->
+    </classes>
+  </test> <!-- Amazon Order Flow Test(failed) -->
+</suite> <!-- Failed suite [Amazon Order Suite] -->

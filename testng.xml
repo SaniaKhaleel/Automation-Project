@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MySuite" parallel="false">
+  <test name="MyTests">
+    <classes>
+      <class name="sania.tests.tasks.Task1"/>
+      <class name="sania.tests.tasks.Task2"/>
+      <class name="sania.tests.tasks.Task3"/>
+    </classes>
+  </test>
+</suite>

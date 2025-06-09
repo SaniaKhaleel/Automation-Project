@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TrainingSuite" parallel="false">
+  <test name="TrainingTest">
+    <classes>
+      <class name="sania.tests.trainingProject.AmazonTest"/>
+    </classes>
+  </test>
+</suite>
