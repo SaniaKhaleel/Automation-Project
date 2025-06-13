@@ -47,8 +47,11 @@ public class ProductPage {
 	}
 
 	public void addProtectionPlan() {
-		WebElement protection = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.id("attachSiAddCoverage-announce")));
-		((JavascriptExecutor) driver).executeScript("arguments[0].click();", protection);
-	}
-}
+		List<WebElement> protectionOptions = driver.findElements(By.id("attachSiAddCoverage-announce"));
+    if (!protectionOptions.isEmpty()) {
+        WebElement addProtection = protectionOptions.get(0);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", addProtection);
+    } else {
+        System.out.println("No protection plan offered.");
+    }
+}}
