@@ -48,10 +48,11 @@ public class ProductPage {
 
 	public void addProtectionPlan() {
 		List<WebElement> protectionOptions = driver.findElements(By.id("attachSiAddCoverage-announce"));
-    if (!protectionOptions.isEmpty()) {
-        WebElement addProtection = protectionOptions.get(0);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", addProtection);
-    } else {
-        System.out.println("No protection plan offered.");
-    }
-}}
+		if (!protectionOptions.isEmpty()) {
+			WebElement addProtection = protectionOptions.get(0);
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", addProtection);
+		} else {
+			System.out.println("No protection plan offered.");
+		}
+	}
+}
