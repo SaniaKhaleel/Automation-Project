@@ -19,17 +19,15 @@ public class CartPage {
 	}
 
 	public void goToCartAndCheckout() {
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-cart"))).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Go to Cart')]"))).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("proceedToRetailCheckout"))).click();
 	}
 
 	public void login(String email, String password) {
-		for (String handle : driver.getWindowHandles()) {
-			driver.switchTo().window(handle);
-		}
-		driver.findElement(By.id("ap_email_login")).sendKeys(email);
+		WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ap_email_login")));
+		emailInput.sendKeys(email);
 		driver.findElement(By.id("continue")).click();
-		driver.findElement(By.id("ap_password")).sendKeys(password);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ap_password"))).sendKeys(password);
 		driver.findElement(By.id("signInSubmit")).click();
 	}
 
